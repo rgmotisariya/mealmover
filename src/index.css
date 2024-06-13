@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities{
+.activeGD{
+    @apply bg-clip-text text-transparent bg-red-500  shadow-2xl  shadow-orange-400   scale-110  font-semibold rounded-xl; 
+ }
+ .unactiveGD{
+    @apply   text-gray-600 ;
+ }
+ .activeGF{
+    @apply   bg-clip-text text-transparent bg-red-500  border-b-2 border-red-600  ; 
+ }
+ 
+ .unactiveGF{
+    @apply    text-gray-600 font-semibold ; 
+ }
+
+}
