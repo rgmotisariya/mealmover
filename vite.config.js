@@ -6,10 +6,12 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   base: "/Frontend/",
-    build: {
-      rollupOptions: {
-        external: ['react-icons/rx']
-      }}
-
-})
+  build: {
+    rollupOptions: {
+      external: ['react-icons/io5']
+    }
+  }
+      
+    }
+)
  
