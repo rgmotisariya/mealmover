@@ -1,5 +1,5 @@
 import React from 'react'
-import { RxCross2 } from "react-icons/rx";
+import { RxCross2 } from 'react-icons/rx';
 import { Link } from 'react-router-dom';
 
 const MenuLinks=[

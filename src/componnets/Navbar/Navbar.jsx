@@ -1,8 +1,9 @@
 import React, { useState,useContext } from 'react'
-import { IoSearchSharp } from "react-icons/io5";
-import { IoMdCart } from "react-icons/io";
+import { IoSearchSharp } from 'react-icons/io5';
+import { IoMenu } from 'react-icons/io5';
+import { IoMdCart } from 'react-icons/io';
 import { Link } from 'react-router-dom';
-import { IoMenu } from "react-icons/io5";
+
 import { StoreContext } from '../../context/StoreContext'
 const MenuLinks=[
   {id:1, name:"Home" , Link:"/"},
