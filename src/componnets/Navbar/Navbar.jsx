@@ -23,7 +23,7 @@ return (
                     
             <div className='flex items-center justify-between gap-4'>
                    {/* logo*/}
-                   <Link to='/'><p className='text-[orangered] font-bold text-2xl ' href="#Home">cloth</p></Link>
+                   <Link to='/'><p className='text-[orangered] font-bold text-2xl ' href="#Home">Worldwear</p></Link>
                    
                     {/* manu*/}
                    <div className='hidden lg:block' >

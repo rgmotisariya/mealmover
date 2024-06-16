@@ -38,7 +38,7 @@ function Footer() {
                 {/* compony details */}
 
                 <div className="py-8 px-4">
-                <a className='text-[orangered] font-bold text-2xl ' href="#Home">cloth</a>
+                <a className='text-[orangered] font-bold text-2xl ' href="#Home">Worldwear</a>
                 <p className=" text-gray-700 lg:pr-24 pt-3  dark:text-white/70">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam nobis molestias numquam. Quod perferendis.
                 </p>
