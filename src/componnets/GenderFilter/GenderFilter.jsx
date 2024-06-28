@@ -19,16 +19,16 @@ const Gender_List=[
 
 function Category({gender,setGender}) {
   return (
-    <div className='container mt-8'>
+    <div className='container '>
       
-        <div className=' flex justify-evenly  bg-gray-100'>
+        <div className=' flex justify-evenly  border-b pb-1'>
           
            
            
            {
                Gender_List.map((data,id)=>(
                   
-                   <div key={id} onClick={()=>setGender(prev=>prev===data.gen? "all":data.gen)}  className={gender===data.gen? "activeGF" :"unactive"} >
+                   <div key={id} onClick={()=>setGender(prev=>prev===data.gen? "":data.gen)}  className={gender===data.gen? "activeGF" :"unactive"} >
                        <button className='text-lg  text-md w-30 font-semibold  cursor-pointer '>{data.gen}</button>
                    </div>
                ))

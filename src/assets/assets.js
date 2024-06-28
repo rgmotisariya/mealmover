@@ -156,11 +156,12 @@ export const GenderData_List = [
     { id: 8, img: imgg8, title: "Shirts",gen:"men" },
     { id: 9, img: imgg9, title: "Trousers",gen:"men" },
     { id: 10, img: imgg10, title: "Suits",gen:"men" },
+    { id: 11, img: imgg11, title: "Ties", gen:"men"},
     { id: 21, img: imgg21, title: "Lounge Tshirt", gen:"men" },
     { id: 22, img: imgg22, title: "Pajamas", gen:"men" },   
 
     //kids
-    { id: 11, img: imgg11, title: "Ties", gen:"kids"},
+   
     { id: 12, img: imgg12, title: "Boy Hed", gen:"kids" },
     { id: 13, img: imgg13, title: "Shirts", gen:"kids" },
     { id: 14, img: imgg14, title: "T-Shirts", gen:"kids" },
@@ -181,3 +182,85 @@ export const GenderData_List = [
     { id: 41, img: imgg41, title: "Track pant", gen:"baby" },
     { id: 42, img: imgg42, title: "Tshert and short", gen:"baby" },
   ];
+
+
+  import imgs1 from '../assets/dhamaka deal 1.webp'
+  import imgs2 from '../assets/dhamaka deal 2.webp'
+  import imgs3 from '../assets/dhamaka deal 3.webp'
+  import imgs4 from '../assets/dhamaka deal 4.webp'
+  import imgs5 from '../assets/dhamaka deal 5.webp'
+
+  export const SuperDhamakaDeal=[
+    { id:1, img:imgs1, }, 
+    { id:2, img:imgs2, },
+    { id:3, img:imgs3, },
+    { id:4, img:imgs4, },
+    { id:5, img:imgs5, },
+  ]
+
+  import imgc1 from '../assets/compagin caragory 1.webp'
+  import imgc2 from '../assets/compagin caragory 2.webp'
+  import imgc3 from '../assets/compagin caragory 3.webp'
+  import imgc4 from '../assets/compagin caragory 4.webp'
+
+  export const Champion_Category=[
+    { id:1, img:imgc1, }, 
+    { id:2, img:imgc2, },
+    { id:3, img:imgc3, },
+    { id:4, img:imgc4, },
+  ]
+
+  import b1 from '../assets/brand1.png'
+  import b2 from '../assets/brand2.png'
+  import b3 from '../assets/brand3.png'
+  import b4 from '../assets/brand4.png'
+  import b5 from '../assets/brand5.png'
+  import b6 from '../assets/brand6.png'
+  import b7 from '../assets/brand7.png'
+  import b8 from '../assets/brand8.png'
+  import b9 from '../assets/brand9.png'
+  import b10 from '../assets/brand10.png'
+  import b11 from '../assets/brand11.png'
+  import b12 from '../assets/brand12.png'
+ 
+
+export  const brands_logo=[
+  { id:1, img:b1, },
+  { id:2, img:b2, },
+  { id:3, img:b3, },
+  { id:4, img:b4, },
+  { id:5, img:b5, },
+  { id:6, img:b6, },
+  { id:7, img:b7, },
+  { id:8, img:b8, },
+  { id:9, img:b9, },
+  { id:10, img:b10, },
+  { id:11, img:b11, },
+  { id:12, img:b12, },
+]
+
+
+import bl1 from '../assets/line_brand1-removebg-preview.png'
+import bl2 from '../assets/line_brand2-removebg-preview.png'
+import bl3 from '../assets/line_brand3-removebg-preview.png'
+import bl4 from '../assets/line_brand4-removebg-preview.png'
+import bl5 from '../assets/line_brand5-removebg-preview.png'
+import bl6 from '../assets/line_brand6-removebg-preview.png'
+import bl7 from '../assets/line_brand7-removebg-preview.png'
+import bl8 from '../assets/line_brand8-removebg-preview.png'
+import bl9 from '../assets/line_brand9-removebg-preview.png'
+import bl10 from '../assets/line_brand10-removebg-preview.png'
+
+
+export  const line_brands=[
+  { id:1, img:bl1, },
+  { id:2, img:bl2, },
+  { id:3, img:bl3, },
+  { id:4, img:bl4, },
+  { id:5, img:bl5, },
+  { id:6, img:bl6, },
+  { id:7, img:bl7, },
+  { id:8, img:bl8, },
+  { id:9, img:bl9, },
+  { id:10, img:bl10, },
+]

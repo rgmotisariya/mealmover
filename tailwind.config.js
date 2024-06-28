@@ -8,19 +8,29 @@ export default {
   darkMode:"class",
   theme: {
     extend: {
+      animation: {
+        scroll: 'scroll 20s linear infinite', // Adjust values as needed
+      },
+      keyframes: {
+        scroll: {
+          '0%': { transform: 'translateX(0)' },
+          '100%': { transform: 'translateX(-100%)' },
+        },
+      },
       colors:{
-        primary:"#f42c37",
-        secondary:"#f42c37",
-        tertiary:"#fdc62e",
-        fourth:"#eeeeee",
+        primary:"#3D52A0",
+        secondary:"#7091E6",
+        tertiary:"#8697C4",
+        fourth:"#ADBBDA",
+        fifth:"#EDE8F5"
       },
       container:{
         center:true,
-        padding:{
-          DEFAULT:"1rem",
-          sm:"2rem",
+      //   padding:{
+      //     DEFAULT:"1rem",
+      //     sm:"2rem",
          
-      }
+      // }
       }
     },
   },

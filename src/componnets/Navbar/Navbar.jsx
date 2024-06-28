@@ -17,13 +17,13 @@ function Navbar({setShowlogin,setshowmanu}) {
   const totalCartItems = Object.values(context.CartItems).reduce((acc, quantity) => acc + quantity, 0);
 
 return (
-  <div className='relative z-40 bg-white'>
-      <div className='py-2'>
+  <div className='container relative z-40 bg-fifth px-1'>
+      <div className='py-1'>
          <div className='container  items-center '>
                     
             <div className='flex items-center justify-between gap-4'>
                    {/* logo*/}
-                   <Link to='/'><p className='text-[orangered] font-bold text-2xl ' href="#Home">Worldwear</p></Link>
+                   <Link to='/'><p className='text-primary font-bold text-2xl ' href="#Home">Worldwear</p></Link>
                    
                     {/* manu*/}
                    <div className='hidden lg:block' >
@@ -55,7 +55,7 @@ return (
                               
                        </button>
                        
-                      <button onClick={()=>setShowlogin(true)} className='  hover:text-primary '>Sign in</button>                     
+                      <button onClick={()=>setShowlogin(true)} className=' hover:text-white hover:bg-primary rounded-full px-2 py-1 '>Sign in</button>                     
                       <IoMenu  onClick={()=>setshowmanu(true)}  className='lg:hidden text-2xl text-gray-500 hover:text-primary'/>
                   </div>
                   

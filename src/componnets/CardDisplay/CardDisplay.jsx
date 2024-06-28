@@ -9,8 +9,7 @@ function CardDisplay({category}) {
     
   return (
     <div className=' container    '>
-        <h2 className='font-semibold  pt-3'>Top sells of the day</h2>
-        <div className='mt-4 grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2  gap-x-5 grid-cols-[repeat(auto-fill,minmax(240px,1fr))] '>
+               <div className='mt-1 grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2  gap-x-5 grid-cols-[repeat(auto-fill,minmax(240px,1fr))] '>
         {
             item_List.map((data,index)=>{
                 

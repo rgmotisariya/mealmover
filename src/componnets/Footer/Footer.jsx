@@ -33,19 +33,19 @@ function Footer() {
   return (
     <div>
         <div className="container    ">
-            <div className="grid  md:grid-cols-3 my-5 pb-10 pt-3 bg-gray-300 ">
+            <div className="grid  md:grid-cols-3 my-5 pb-10 pt-3 bg-fifth ">
                
                 {/* compony details */}
 
                 <div className="py-8 px-4">
-                <a className='text-[orangered] font-bold text-2xl ' href="#Home">Worldwear</a>
+                <a className='text-primary font-bold text-2xl ' href="#Home">Worldwear</a>
                 <p className=" text-gray-700 lg:pr-24 pt-3  dark:text-white/70">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam nobis molestias numquam. Quod perferendis.
                 </p>
                 <p className="text-gray-500 mt-4 ">
                     Copyright © 2022. All rights reserved.
                 </p>
-                <a href="#" className='inline-block bg-[orangered]  mt-4  text-white py-2 px-4  text-sm rounded-full  '>Contact Us</a>
+                <a href="#" className='inline-block bg-primary hover:bg-secondary  mt-4  text-white py-2 px-4  text-sm rounded-full  '>Contact Us</a>
                 </div>
 
                 {/* footer links */}
@@ -97,13 +97,13 @@ function Footer() {
                         {/* social links */}
                         <div className="flex  items-center gap-3 mt-5">
                         <a href="#">
-                            <FaInstagram className='text-3xl hover:text-[orangered] duration-300'/>
+                            <FaInstagram className='text-3xl hover:text-primary duration-300'/>
                         </a>
                         <a href="#">
-                            <FaFacebook className='text-3xl hover:text-[orangered] duration-300'/>
+                            <FaFacebook className='text-3xl hover:text-primary duration-300'/>
                         </a>
                         <a href="#">
-                            <FaLinkedin className='text-3xl hover:text-[orangered] duration-300'/>
+                            <FaLinkedin className='text-3xl hover:text-primary duration-300'/>
                         </a>
                         </div>
                     </div>

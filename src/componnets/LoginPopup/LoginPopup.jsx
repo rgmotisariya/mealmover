@@ -20,8 +20,8 @@ function LoginPopup({setShowlogin}) {
                 <input type="email" placeholder='Email' required className='w-full block border-2 rounded-xl px-2 my-2' />
                 <input type="password" placeholder='Password' required className='w-full block border-2 rounded-xl px-2 my-2' />
             </div>
-            <div class="grid grid-cols-1 place-items-center py-3">
-            <button type='submit' className='text-white bg-primary rounded-xl px-4 py-1' >{currstste==="Sign Up"?"Creat acount":"Login"}</button>
+            <div className="grid grid-cols-1 place-items-center py-3">
+            <button type='submit' className='text-white bg-primary hover:bg-secondary rounded-xl px-4 py-1' >{currstste==="Sign Up"?"Creat acount":"Login"}</button>
             </div>
             <div className='flex gap-2 py-2'>
                 <input type="checkbox" required/>

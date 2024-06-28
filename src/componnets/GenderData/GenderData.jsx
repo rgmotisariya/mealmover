@@ -62,13 +62,13 @@ function GenderData({category,setCategory,gender}) {
       GenderData_List.map((data) => {
         if( gender===data.gen){
         return <>
-      <div className=' my-7  '>
-        <div key={data.id} onClick={() => setCategory(prev => prev === data.title ? "all" : data.title)} className={`slide-item   ${category === data.title ? "activeGD" : "unactiveGD"}`}>
-          <div className=''>
-          <img src={data.img} alt={data.title} className='object-cover h-14 ' />
+      <div className=' my-1  '>
+        <div key={data.id} onClick={() => setCategory(prev => prev === data.title ? "" : data.title)} className={`slide-item   ${category === data.title ? "activeimgheader" : "unactiveimgheader"}`}>
+          <div className='p-1  '>
+          <img src={data.img} alt={data.title} className={`${category === data.title ? "activeimg" : "unactiveimg"} object-cover h-14 w-14 rounded-full `}/>
           </div>
           <div className='text-center'>
-          <p className='  truncate... h-10 '>{data.title}</p>
+          <p className='  truncate... h-10  '>{data.title}</p>
           </div>
           </div>
         </div>

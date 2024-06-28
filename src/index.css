@@ -3,14 +3,18 @@
 @tailwind utilities;
 
 @layer utilities{
-.activeGD{
-    @apply bg-clip-text text-transparent bg-red-500  shadow-2xl  shadow-orange-400   scale-110  font-semibold rounded-xl; 
+.activeimg{
+    @apply bg-clip-text text-transparent bg-primary  shadow-xl  shadow-primary   scale-110  font-semibold rounded-full; 
  }
- .unactiveGD{
+ .unactiveimg{
     @apply   text-gray-600 ;
  }
+ .activeimgheader{
+   @apply bg-clip-text text-transparent bg-primary  font-semibold ; 
+}
+
  .activeGF{
-    @apply   bg-clip-text text-transparent bg-red-500  border-b-2 border-red-600  ; 
+    @apply   bg-clip-text text-transparent bg-primary  border-b-2 border-primary  ; 
  }
  
  .unactiveGF{
