@@ -1,6 +1,6 @@
 import { createContext, useState } from "react";
 
-import {item_List} from '../assets/assets';
+import {food_list} from '../assets/assets';
 
  export const StoreContext=createContext();
 
@@ -26,11 +26,8 @@ const  StoreContextProvider =(props)=>{
         }
     
     }
-  
-
-   
-
-    const subtotal = item_List.reduce((acc, item) => {
+    
+    const subtotal = food_list.reduce((acc, item) => {
         return acc + (CartItems[item.id] > 0 ? CartItems[item.id] * item.price : 0);
       }, 0);
       
@@ -39,7 +36,7 @@ const  StoreContextProvider =(props)=>{
       const total = subtotal + deliveryFee;
 
 const contextValue={
-         item_List,
+         food_list,
          CartItems,
          addToCart,
          removeFromCart,

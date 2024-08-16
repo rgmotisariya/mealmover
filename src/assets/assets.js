@@ -1,266 +1,350 @@
-//sarees
-import img1 from '../assets/sarees_Womens Georgette Banarasi Silk Saree with Unstitched Blouse.jpg'
-import img2 from '../assets/3Womens Striped Satin Saree.jpg'
-import img3 from '../assets/3Womens Kanjivaram Soft Silk Saree Patola saree With Blouse.jpg'
-import img4 from '../assets/3Womens Striped Satin Saree.jpg'
-// Maternity
-import img5 from '../assets/5Womens Cotton Solid Regular Maternity Wear.jpg'
-import img6 from '../assets/5Womens Cotton A-Line Relaxed Maternity Wear.jpg'
-import img7 from '../assets/5Womens Cotton Blend Maxi Casual Relaxed Maternity,.jpg'
-import img8 from '../assets/5Womens Cotton Maternity Kurti.jpg'
-import img9 from '../assets/5Womens Cotton Solid Regular Maternity Wear.jpg'
-//Kurtas and Sets
-import img10 from '../assets/1Womens Poly Crepe Jacket Style A-line Kurta.jpg'
-import img11 from '../assets/1Womens Rayon Blend Straight Block Printed Kurta & Pant.jpg'
-import img12 from '../assets/Womens Navy Blue Cotton Floral Print Flared Kurta.jpg'
-import img13 from '../assets/Womens Rayon Blend Straight Block Printed Kurta & Pant.jpg'
-import img14 from '../assets/Womens Solid Viscose Straight Kurta Trouser With Dupatta Set.jpg'
-import img15 from '../assets/Women Kurta with Pant & Dupatta.jpg'
-import img23 from '../assets/Women Cotton Pear Sorbet Dobby Geometric Yarn Dyed.jpg'
-import img24 from '../assets/Women Salwar Suit.jpg'
-//Tops and Tees
-import img16 from '../assets/2Allen Solly.jpg'
-import img17 from '../assets/2Bewakoof.jpg'
-import img18 from '../assets/2Globus.jpg'
-//Sleepwear
-import img19 from '../assets/4Satin Nightwear Sleepwear Long Nighty.jpg'
-import img20 from '../assets/4Satin Nightwear Sleepwear Long Nighty.jpg'
-import img21 from '../assets/4Womens Satin Solid Maxi Nighties  Sleep Robe.jpg'
-import img22 from '../assets/4Womens White Japanese Satin Floral Print 3 PC Night Suit Set - 3752.jpg'
+import basket_icon from './basket_icon.png'
+import logo from './logo.png'
+import header_img from './header_img.png'
+import search_icon from './search_icon.png'
+import menu_1 from './menu_1.png'
+import menu_2 from './menu_2.png'
+import menu_3 from './menu_3.png'
+import menu_4 from './menu_4.png'
+import menu_5 from './menu_5.png'
+import menu_6 from './menu_6.png'
+import menu_7 from './menu_7.png'
+import menu_8 from './menu_8.png'
 
+import food_1 from './food_1.png'
+import food_2 from './food_2.png'
+import food_3 from './food_3.png'
+import food_4 from './food_4.png'
+import food_5 from './food_5.png'
+import food_6 from './food_6.png'
+import food_7 from './food_7.png'
+import food_8 from './food_8.png'
+import food_9 from './food_9.png'
+import food_10 from './food_10.png'
+import food_11 from './food_11.png'
+import food_12 from './food_12.png'
+import food_13 from './food_13.png'
+import food_14 from './food_14.png'
+import food_15 from './food_15.png'
+import food_16 from './food_16.png'
+import food_17 from './food_17.png'
+import food_18 from './food_18.png'
+import food_19 from './food_19.png'
+import food_20 from './food_20.png'
+import food_21 from './food_21.png'
+import food_22 from './food_22.png'
+import food_23 from './food_23.png'
+import food_24 from './food_24.png'
+import food_25 from './food_25.png'
+import food_26 from './food_26.png'
+import food_27 from './food_27.png'
+import food_28 from './food_28.png'
+import food_29 from './food_29.png'
+import food_30 from './food_30.png'
+import food_31 from './food_31.png'
+import food_32 from './food_32.png'
 
+import add_icon_white from './add_icon_white.png'
+import add_icon_green from './add_icon_green.png'
+import remove_icon_red from './remove_icon_red.png'
+import app_store from './app_store.png'
+import play_store from './play_store.png'
+import linkedin_icon from './linkedin_icon.png'
+import facebook_icon from './facebook_icon.png'
+import twitter_icon from './twitter_icon.png'
+import cross_icon from './cross_icon.png'
+import selector_icon from './selector_icon.png'
+import rating_starts from './rating_starts.png'
+import profile_icon from './profile_icon.png'
+import bag_icon from './bag_icon.png'
+import logout_icon from './logout_icon.png'
+import parcel_icon from './parcel_icon.png'
 
+export const assets = {
+    logo,
+    basket_icon,
+    header_img,
+    search_icon,
+    rating_starts,
+    add_icon_green,
+    add_icon_white,
+    remove_icon_red,
+    app_store,
+    play_store,
+    linkedin_icon,
+    facebook_icon,
+    twitter_icon,
+    cross_icon,
+    selector_icon,
+    profile_icon,
+    logout_icon,
+    bag_icon,
+    parcel_icon
+}
 
+export const menu_list = [
+    {
+        menu_name: "Salad",
+        menu_image: menu_1
+    },
+    {
+        menu_name: "Rolls",
+        menu_image: menu_2
+    },
+    {
+        menu_name: "Deserts",
+        menu_image: menu_3
+    },
+    {
+        menu_name: "Sandwich",
+        menu_image: menu_4
+    },
+    {
+        menu_name: "Cake",
+        menu_image: menu_5
+    },
+    {
+        menu_name: "Pure Veg",
+        menu_image: menu_6
+    },
+    {
+        menu_name: "Pasta",
+        menu_image: menu_7
+    },
+    {
+        menu_name: "Noodles",
+        menu_image: menu_8
+    }]
 
-
- export const  item_List=[
-    {id:1,name:"Sarees",img:img1, price:100,category:"Sarees",description:" Women's Silk Blend Woven Design Celebrity Saree With Blouse Piece  "},
-    {id:2,name:"Sarees",img:img2, price:100,category:"Sarees",description:" Women's Striped Satin Saree "},
-    {id:3,name:"Sarees",img:img3, price:100,category:"Sarees",description:" Women's Kanjivaram Soft Silk Saree Patola saree With Blouse "},
-    {id:4,name:"Sarees",img:img4, price:100,category:"Sarees",description:" Women's Striped Satin Saree"},
-    
-    {id:5,name:"Maternity",img:img5, price:100,category:"Maternity",description:" Women's Cotton Solid Regular Maternity Wear"},
-    {id:6,name:"Maternity",img:img6, price:100,category:"Maternity",description:" Women's Kanjivaram Soft Silk Saree Patola saree With Blouse "},
-    {id:7,name:"Maternity",img:img7, price:100,category:"Maternity",description:" Women's Striped Satin Saree"},
-    {id:8,name:"Maternity",img:img8, price:100,category:"Maternity",description:" Women's Kanjivaram Soft Silk Saree Patola saree With Blouse "},
-    {id:9,name:"Maternity",img:img9, price:100,category:"Maternity",description:" Women's Striped Satin Saree"},
-   
-    {id:10,name:"Kurtas and Sets",img:img10, price:100,category:"Kurtas and Sets",description:" Women's Kanjivaram Soft Silk Saree Patola saree With Blouse "}, 
-    {id:11,name:"Kurtas and Sets",img:img11, price:100,category:"Kurtas and Sets",description:" Women's Striped Satin Saree"},
-    {id:12,name:"Kurtas and Sets",img:img12, price:100,category:"Kurtas and Sets",description:" Women's Kanjivaram Soft Silk Saree Patola saree With Blouse "},
-    {id:13,name:"Kurtas and Sets",img:img13, price:100,category:"Kurtas and Sets",description:" Women's Striped Satin Saree"},
-    {id:14,name:"Kurtas and Sets",img:img14, price:100,category:"Kurtas and Sets",description:" Women's Kanjivaram Soft Silk Saree Patola saree With Blouse "},
-    {id:15,name:"Kurtas and Sets",img:img15, price:100,category:"Kurtas and Sets",description:" Women's Striped Satin Saree"},
-    {id:23,name:"Kurtas and Sets",img:img23, price:100,category:"Kurtas and Sets",description:" Women's Striped Satin Saree"},
-    {id:24,name:"Kurtas and Sets",img:img24, price:100,category:"Kurtas and Sets",description:" Women's Kanjivaram Soft Silk Saree Patola saree With Blouse "},
-
-    {id:16,name:"Tops and Tees",img:img16, price:100,category:"Tops and Tees",description:" Women's Kanjivaram Soft Silk Saree Patola saree With Blouse "},
-    {id:17,name:"Tops and Tees",img:img17, price:100,category:"Tops and Tees",description:" Women's Striped Satin Saree"},
-    {id:18,name:"Tops and Tees",img:img18, price:100,category:"Tops and Tees",description:" Women's Kanjivaram Soft Silk Saree Patola saree With Blouse "},
-    
-    {id:19,name:"Sleepwear",img:img19, price:100,category:"Sleepwear",description:" Women's Striped Satin Saree"},
-    {id:20,name:"Sleepwear",img:img20, price:100,category:"Sleepwear",description:" Women's Kanjivaram Soft Silk Saree Patola saree With Blouse "},
-    {id:21,name:"Sleepwear",img:img21, price:100,category:"Sleepwear",description:" Women's Striped Satin Saree"},
-    {id:22,name:"Sleepwear",img:img22, price:100,category:"Sleepwear",description:" Women's Kanjivaram Soft Silk Saree Patola saree With Blouse "},
-   
-   
-    {id:25,name:"Kurtas and Sets",img:img10,price:100,category:"Kurtas and Sets",description:" Women's Striped Satin Saree"},
-    {id:26,name:"Kurtas and Sets",img:img11, price:100,category:"Kurtas and Sets",description:" Women's Kanjivaram Soft Silk Saree Patola saree With Blouse "},
-    {id:27,name:"Kurtas and Sets",img:img12, price:100,category:"Kurtas and Sets",description:" Women's Striped Satin Saree"},
-    {id:28,name:"Kurtas and Sets",img:img13, price:100,category:"Kurtas and Sets",description:" Women's Kanjivaram Soft Silk Saree Patola saree With Blouse "},
-    {id:29,name:"Kurtas and Sets",img:img14, price:100,category:"Kurtas and Sets",description:" Women's Striped Satin Saree"},
-    {id:30,name:"Kurtas and Sets",img:img15, price:100,category:"Kurtas and Sets",description:" Women's Kanjivaram Soft Silk Saree Patola saree With Blouse "},
-    {id:31,name:"Kurtas and Sets",img:img23, price:100,category:"Kurtas and Sets",description:" Women's Striped Satin Saree"},
-    {id:32,name:"Kurtas and Sets",img:img24, price:100,category:"Kurtas and Sets",description:" Women's Kanjivaram Soft Silk Saree Patola saree With Blouse "},
-    
-    // {id:33,name:"sarees",img:img16, price:100,category:"sarees",description:" Women's Striped Satin Saree"},
-    // {id:34,name:"sarees",img:img17, price:100,category:"sarees",description:" Women's Kanjivaram Soft Silk Saree Patola saree With Blouse "},   
-    // {id:35,name:"sarees",img:img18, price:100,category:"sarees",description:" Women's Striped Satin Saree"},
-    // {id:36,name:"sarees",img:img19, price:100,category:"sarees",description:" Women's Kanjivaram Soft Silk Saree Patola saree With Blouse "},
-    // {id:37,name:"sarees",img:img20, price:100,category:"sarees",description:" Women's Striped Satin Saree"},
-    // {id:38,name:"sarees",img:img21, price:100,category:"sarees",description:" Women's Kanjivaram Soft Silk Saree Patola saree With Blouse "},
-    // {id:39,name:"sarees",img:img22, price:100,category:"sarees",description:" Women's Striped Satin Saree"},
-
-];
-
-  
-   
-
-
-import imgg1 from '../assets/sarees.png'
-import imgg2 from '../assets/Maternity.png'
-import imgg3 from '../assets/Sleepwear.png'
-import imgg4 from '../assets/tops_and_tees.png'
-import imgg5 from '../assets/Kurtas_and_sets.png'
-import imgg23 from '../assets/2_women_Halos_Accessories.png'
-import imgg24 from '../assets/2_women_Ethnic_bottoms.png'
-import imgg25 from '../assets/2_women_Lehengas.png'
-import imgg26 from '../assets/2_women_Dresses.png'
-import imgg27 from '../assets/2_women_Jeans.png'
-import imgg28 from '../assets/2_women_Kurtas__Kurtis.png'
-
-import imgg30 from '../assets/2_women_Lehengas.png'
-import imgg31 from '../assets/2_women_Shirts.png'
-import imgg32 from '../assets/2_women_western.png'
-
-
-import imgg6 from '../assets/1men_Blazers.png'
-import imgg7 from '../assets/1men_Handkerchiefs.png'
-import imgg8 from '../assets/1men_shirts.png'
-import imgg9 from '../assets/1men_Trouser.png'
-import imgg10 from '../assets/1men_Suits.png'
-import imgg11 from '../assets/1men_Ties.png'
-import imgg21 from '../assets/1men_Lounge_Tshirt.png'
-import imgg22 from '../assets/1men_Pajamas.png'
-
-
-import imgg12 from '../assets/Boys_hed.png'
-import imgg15 from '../assets/boy_Clothing_Sets.png'
-import imgg13 from '../assets/boy_Shirts.png'
-import imgg14 from '../assets/boyt_T-Shirts__Polos.png'
-import imgg16 from '../assets/Girls_hed.png'
-import imgg17 from '../assets/girl_Tops__T-Shirts.png'
-import imgg20 from '../assets/girl_Dresses__Jumpsuits.png'
-import imgg18 from '../assets/girl_Shirts.png'
-import imgg41 from '../assets/3baby_track_pant.jpg'
-import imgg19 from '../assets/girl_Ethnic_Wear.png'
-import imgg40 from '../assets/3baby_romper_sleepsuit.jpg'
-
-import imgg39 from '../assets/3baby_haus_and_kinder.jpg'
-import imgg38 from '../assets/3baby_kids_socks.jpg'
-import imgg35 from '../assets/3baby_baby_dress.jpg'
-import imgg36 from '../assets/3baby_baby_frock.jpg'
-import imgg37 from '../assets/3baby_cotton_cap.jpg'
-import imgg42 from '../assets/3baby_tshert_and_short.jpg'
-
-export const GenderData_List = [
-    //women
-    { id: 1, img: imgg1, title: "Sarees",  gen:"women"},
-    { id: 2, img: imgg2, title: "Maternity" ,  gen:"women"},
-    { id: 3, img: imgg3, title: "Sleepwear" ,  gen:"women"},
-    { id: 4, img: imgg4, title: "Tops and Tees",  gen:"women" },
-    { id: 5, img: imgg5, title: "Kurtas and Sets",  gen:"women" },
-    { id: 23, img: imgg23, title: "Dresses", gen:"women" },
-    { id: 24, img: imgg24, title: "Ethnic bottoms", gen:"women" },
-    { id: 25, img: imgg25, title: "Lehengas", gen:"women" },
-    { id: 26, img: imgg26, title: "Halos Accessories", gen:"women" },
-    { id: 27, img: imgg27, title: "Jeans", gen:"women" },
-    { id: 28, img: imgg28, title: "Kurtas Kurtis", gen:"women" },
-    { id: 30, img: imgg30, title: "Lehengas", gen:"women" },
-    { id: 31, img: imgg31, title: "Shirts", gen:"women" },
-    { id: 32, img: imgg32, title: "Western", gen:"women" },
-    
-    //men
-    { id: 6, img: imgg6, title: "Blazers" ,gen:"men"},
-    { id: 7, img: imgg7, title: "Hand kerchiefs" ,gen:"men"},
-    { id: 8, img: imgg8, title: "Shirts",gen:"men" },
-    { id: 9, img: imgg9, title: "Trousers",gen:"men" },
-    { id: 10, img: imgg10, title: "Suits",gen:"men" },
-    { id: 11, img: imgg11, title: "Ties", gen:"men"},
-    { id: 21, img: imgg21, title: "Lounge Tshirt", gen:"men" },
-    { id: 22, img: imgg22, title: "Pajamas", gen:"men" },   
-
-    //kids
-   
-    { id: 12, img: imgg12, title: "Boy Hed", gen:"kids" },
-    { id: 13, img: imgg13, title: "Shirts", gen:"kids" },
-    { id: 14, img: imgg14, title: "T-Shirts", gen:"kids" },
-    { id: 15, img: imgg15, title: "Clothing Sets" , gen:"kids"},
-    { id: 16, img: imgg16, title: "Girl Hed" , gen:"kids" },
-    { id: 17, img: imgg17, title: "Tops", gen:"kids" },
-    { id: 18, img: imgg18, title: "Shirts", gen:"kids" },
-    { id: 19, img: imgg19, title: "Ethnic Wear", gen:"kids" },
-    { id: 20, img: imgg20, title: "Dresses" , gen:"kids"},
-
-  //baby
-    { id: 35, img: imgg35, title: "Baby dress", gen:"baby" },
-    { id: 36, img: imgg36, title: "Baby frock", gen:"baby" },
-    { id: 37, img: imgg37, title: "Cotton cap", gen:"baby" },
-    { id: 38, img: imgg38, title: "Kids socks", gen:"baby" },
-    { id: 39, img: imgg39, title: "Haus and kinder", gen:"baby" },
-    { id: 40, img: imgg40, title: "Romper sleepsuit", gen:"baby" },
-    { id: 41, img: imgg41, title: "Track pant", gen:"baby" },
-    { id: 42, img: imgg42, title: "Tshert and short", gen:"baby" },
-  ];
-
-
-  import imgs1 from '../assets/dhamaka deal 1.webp'
-  import imgs2 from '../assets/dhamaka deal 2.webp'
-  import imgs3 from '../assets/dhamaka deal 3.webp'
-  import imgs4 from '../assets/dhamaka deal 4.webp'
-  import imgs5 from '../assets/dhamaka deal 5.webp'
-
-  export const SuperDhamakaDeal=[
-    { id:1, img:imgs1, }, 
-    { id:2, img:imgs2, },
-    { id:3, img:imgs3, },
-    { id:4, img:imgs4, },
-    { id:5, img:imgs5, },
-  ]
-
-  import imgc1 from '../assets/compagin caragory 1.webp'
-  import imgc2 from '../assets/compagin caragory 2.webp'
-  import imgc3 from '../assets/compagin caragory 3.webp'
-  import imgc4 from '../assets/compagin caragory 4.webp'
-
-  export const Champion_Category=[
-    { id:1, img:imgc1, }, 
-    { id:2, img:imgc2, },
-    { id:3, img:imgc3, },
-    { id:4, img:imgc4, },
-  ]
-
-  import b1 from '../assets/brand1.png'
-  import b2 from '../assets/brand2.png'
-  import b3 from '../assets/brand3.png'
-  import b4 from '../assets/brand4.png'
-  import b5 from '../assets/brand5.png'
-  import b6 from '../assets/brand6.png'
-  import b7 from '../assets/brand7.png'
-  import b8 from '../assets/brand8.png'
-  import b9 from '../assets/brand9.png'
-  import b10 from '../assets/brand10.png'
-  import b11 from '../assets/brand11.png'
-  import b12 from '../assets/brand12.png'
- 
-
-export  const brands_logo=[
-  { id:1, img:b1, },
-  { id:2, img:b2, },
-  { id:3, img:b3, },
-  { id:4, img:b4, },
-  { id:5, img:b5, },
-  { id:6, img:b6, },
-  { id:7, img:b7, },
-  { id:8, img:b8, },
-  { id:9, img:b9, },
-  { id:10, img:b10, },
-  { id:11, img:b11, },
-  { id:12, img:b12, },
-]
-
-
-import bl1 from '../assets/line_brand1-removebg-preview.png'
-import bl2 from '../assets/line_brand2-removebg-preview.png'
-import bl3 from '../assets/line_brand3-removebg-preview.png'
-import bl4 from '../assets/line_brand4-removebg-preview.png'
-import bl5 from '../assets/line_brand5-removebg-preview.png'
-import bl6 from '../assets/line_brand6-removebg-preview.png'
-import bl7 from '../assets/line_brand7-removebg-preview.png'
-import bl8 from '../assets/line_brand8-removebg-preview.png'
-import bl9 from '../assets/line_brand9-removebg-preview.png'
-import bl10 from '../assets/line_brand10-removebg-preview.png'
-
-
-export  const line_brands=[
-  { id:1, img:bl1, },
-  { id:2, img:bl2, },
-  { id:3, img:bl3, },
-  { id:4, img:bl4, },
-  { id:5, img:bl5, },
-  { id:6, img:bl6, },
-  { id:7, img:bl7, },
-  { id:8, img:bl8, },
-  { id:9, img:bl9, },
-  { id:10, img:bl10, },
+export const food_list = [
+    {
+        _id: "1",
+        name: "Greek salad",
+        image: food_1,
+        price: 12,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Salad"
+    },
+    {
+        _id: "2",
+        name: "Veg salad",
+        image: food_2,
+        price: 18,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Salad"
+    }, {
+        _id: "3",
+        name: "Clover Salad",
+        image: food_3,
+        price: 16,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Salad"
+    }, {
+        _id: "4",
+        name: "Chicken Salad",
+        image: food_4,
+        price: 24,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Salad"
+    }, {
+        _id: "5",
+        name: "Lasagna Rolls",
+        image: food_5,
+        price: 14,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Rolls"
+    }, {
+        _id: "6",
+        name: "Peri Peri Rolls",
+        image: food_6,
+        price: 12,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Rolls"
+    }, {
+        _id: "7",
+        name: "Chicken Rolls",
+        image: food_7,
+        price: 20,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Rolls"
+    }, {
+        _id: "8",
+        name: "Veg Rolls",
+        image: food_8,
+        price: 15,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Rolls"
+    }, {
+        _id: "9",
+        name: "Ripple Ice Cream",
+        image: food_9,
+        price: 14,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Deserts"
+    }, {
+        _id: "10",
+        name: "Fruit Ice Cream",
+        image: food_10,
+        price: 22,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Deserts"
+    }, {
+        _id: "11",
+        name: "Jar Ice Cream",
+        image: food_11,
+        price: 10,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Deserts"
+    }, {
+        _id: "12",
+        name: "Vanilla Ice Cream",
+        image: food_12,
+        price: 12,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Deserts"
+    },
+    {
+        _id: "13",
+        name: "Chicken Sandwich",
+        image: food_13,
+        price: 12,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Sandwich"
+    },
+    {
+        _id: "14",
+        name: "Vegan Sandwich",
+        image: food_14,
+        price: 18,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Sandwich"
+    }, {
+        _id: "15",
+        name: "Grilled Sandwich",
+        image: food_15,
+        price: 16,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Sandwich"
+    }, {
+        _id: "16",
+        name: "Bread Sandwich",
+        image: food_16,
+        price: 24,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Sandwich"
+    }, {
+        _id: "17",
+        name: "Cup Cake",
+        image: food_17,
+        price: 14,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Cake"
+    }, {
+        _id: "18",
+        name: "Vegan Cake",
+        image: food_18,
+        price: 12,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Cake"
+    }, {
+        _id: "19",
+        name: "Butterscotch Cake",
+        image: food_19,
+        price: 20,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Cake"
+    }, {
+        _id: "20",
+        name: "Sliced Cake",
+        image: food_20,
+        price: 15,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Cake"
+    }, {
+        _id: "21",
+        name: "Garlic Mushroom ",
+        image: food_21,
+        price: 14,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Pure Veg"
+    }, {
+        _id: "22",
+        name: "Fried Cauliflower",
+        image: food_22,
+        price: 22,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Pure Veg"
+    }, {
+        _id: "23",
+        name: "Mix Veg Pulao",
+        image: food_23,
+        price: 10,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Pure Veg"
+    }, {
+        _id: "24",
+        name: "Rice Zucchini",
+        image: food_24,
+        price: 12,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Pure Veg"
+    },
+    {
+        _id: "25",
+        name: "Cheese Pasta",
+        image: food_25,
+        price: 12,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Pasta"
+    },
+    {
+        _id: "26",
+        name: "Tomato Pasta",
+        image: food_26,
+        price: 18,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Pasta"
+    }, {
+        _id: "27",
+        name: "Creamy Pasta",
+        image: food_27,
+        price: 16,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Pasta"
+    }, {
+        _id: "28",
+        name: "Chicken Pasta",
+        image: food_28,
+        price: 24,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Pasta"
+    }, {
+        _id: "29",
+        name: "Buttter Noodles",
+        image: food_29,
+        price: 14,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Noodles"
+    }, {
+        _id: "30",
+        name: "Veg Noodles",
+        image: food_30,
+        price: 12,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Noodles"
+    }, {
+        _id: "31",
+        name: "Somen Noodles",
+        image: food_31,
+        price: 20,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Noodles"
+    }, {
+        _id: "32",
+        name: "Cooked Noodles",
+        image: food_32,
+        price: 15,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Noodles"
+    }
 ]

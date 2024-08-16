@@ -17,13 +17,13 @@ function Navbar({setShowlogin,setshowmanu}) {
   const totalCartItems = Object.values(context.CartItems).reduce((acc, quantity) => acc + quantity, 0);
 
 return (
-  <div className='container relative z-40 bg-fifth px-1'>
+  <div className='container relative z-40 bg-white px-1'>
       <div className='py-1'>
          <div className='container  items-center '>
                     
             <div className='flex items-center justify-between gap-4'>
                    {/* logo*/}
-                   <Link to='/'><p className='text-primary font-bold text-2xl ' href="#Home">Worldwear</p></Link>
+                   <Link to='/'><p className='text-primary font-bold text-2xl ' href="#Home">MealMover</p></Link>
                    
                     {/* manu*/}
                    <div className='hidden lg:block' >

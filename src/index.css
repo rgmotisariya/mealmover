@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer utilities{
+/* @layer utilities{
 .activeimg{
     @apply bg-clip-text text-transparent bg-primary  shadow-xl  shadow-primary   scale-110  font-semibold rounded-full; 
  }
@@ -21,4 +21,13 @@
     @apply    text-gray-600 font-semibold ; 
  }
 
+} */
+
+@keyframes fadeIn {
+   0%{
+      opacity: 0;
+   }
+   100%{
+      opacity: 1;
+   }
 }
