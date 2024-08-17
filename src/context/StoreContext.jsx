@@ -1,11 +1,8 @@
 import { createContext, useState } from "react";
-
+export const StoreContext=createContext();
 import {food_list} from '../assets/assets';
 
- export const StoreContext=createContext();
-
 const  StoreContextProvider =(props)=>{
-  
     const [ CartItems,setCartItems]=useState({});
 
     const addToCart=(itemId)=>{
@@ -14,9 +11,9 @@ const  StoreContextProvider =(props)=>{
         }
         else{
             setCartItems((prev)=>({...prev,[itemId]:prev[itemId]+1}));
-        }
-       
+        }   
     }
+
     const removeFromCart=(itemId)=>{
         if (CartItems[itemId] > 0) {
             setCartItems((prev)=>({...prev,[itemId]:prev[itemId]-1}));
@@ -25,10 +22,10 @@ const  StoreContextProvider =(props)=>{
                 delete CartItems[itemId];
         }
     
-    }
-    
+    } 
+     
     const subtotal = food_list.reduce((acc, item) => {
-        return acc + (CartItems[item.id] > 0 ? CartItems[item.id] * item.price : 0);
+        return acc + (CartItems[item._id] > 0 ? CartItems[item._id] * item.price : 0);
       }, 0);
       
 

@@ -60,6 +60,10 @@ import bag_icon from './bag_icon.png'
 import logout_icon from './logout_icon.png'
 import parcel_icon from './parcel_icon.png'
 
+import discount_1 from './descount_chines_wok.jpg'
+import discount_2 from './descount_jugaad_night.jpg'
+import discount_3 from './descount_pizza_hub.jpg'
+
 export const assets = {
     logo,
     basket_icon,
@@ -115,7 +119,7 @@ export const menu_list = [
         menu_name: "Noodles",
         menu_image: menu_8
     }]
-
+ 
 export const food_list = [
     {
         _id: "1",
@@ -346,5 +350,32 @@ export const food_list = [
         price: 15,
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Noodles"
+    }
+]
+
+export const discount_detail =[
+    {
+        _id: "1",
+        name: "Chines Wok",
+        image: discount_1,
+        price: 10,
+        description: "20 min",
+       
+    },
+    {
+        _id: "2",
+        name: "Jugaad Night",
+        image: discount_2,
+        price: 10,
+        description: " 40 min",
+       
+    },
+    {
+        _id: "3",
+        name: "Pizza Hub",
+        image: discount_3,
+        price: 10,
+        description: "55 min",
+      
     }
 ]

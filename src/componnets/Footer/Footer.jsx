@@ -38,12 +38,12 @@ function Footer() {
                 {/* compony details */}
 
                 <div className="py-8 px-4">
-                <a className='text-primary font-bold text-2xl ' href="#Home">Worldwear</a>
+                <a className='text-primary font-bold text-2xl ' href="#Home">MealMover</a>
                 <p className=" text-gray-700 lg:pr-24 pt-3  dark:text-white/70">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam nobis molestias numquam. Quod perferendis.
+                 No. 54 Sy No 3  Block - GroundFloor Embassy Tech Village |  Ring Road Ahemdabad  Gujarat – 380001.
                 </p>
                 <p className="text-gray-500 mt-4 ">
-                    Copyright © 2022. All rights reserved.
+                    Copyright © 2024. All rights reserved.
                 </p>
                 <a href="#" className='inline-block bg-primary hover:bg-secondary  mt-4  text-white py-2 px-4  text-sm rounded-full  '>Contact Us</a>
                 </div>

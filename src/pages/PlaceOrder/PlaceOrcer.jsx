@@ -52,7 +52,7 @@ function PlaceOrcer() {
               <p>₹{total.toFixed(2)}</p>
             </div>
 
-            <button onClick={()=>navigate('/order')} type="button" className="w-full mt-8 px-4 py-2 bg-blue-500 text-white font-medium rounded-md hover:bg-blue-700 focus:outline-none">
+            <button onClick={()=>navigate('/order')} type="button" className="w-full mt-8 px-4 py-2 bg-primary` text-white font-medium rounded-md hover:bg-orange-700 focus:outline-none">
               Place Order
             </button>  
 

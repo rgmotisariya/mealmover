@@ -1,25 +1,3 @@
-.food_category{
-  display: flex;
-  gap: 20px;
-  flex-direction: column;
-}
-.explore-menu h1{
-  color:black;
-  font-weight: 500;
-}
-.explore-menu-text{
-  max-width: 60%;
-  columns: #808080;
-}
-.explore-menu-list{
-  display: flex;
-  justify-content:space-between ;
-  align-items: center;
-  gap: 30px;
-  text-align: center;
-  margin: 20px 0px;
-  overflow-x:scroll;
-}
 .explore-menu-list::-webkit-scrollbar{
   display: none;
 }
@@ -44,6 +22,6 @@
   border: none;
 }
 .explore-menu-list-item .active{
-  border: 4px solid tomato;
+  border: 4px solid #FF4500;
   padding: 2px;
 }

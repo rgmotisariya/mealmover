@@ -1,4 +1,4 @@
-import React, { useState ,useEffect} from 'react'
+import React, { useState } from 'react'
 import Navbar from './componnets/Navbar/Navbar'
 import Footer from './componnets/Footer/Footer'
 import { Route,Routes } from 'react-router-dom'
@@ -14,8 +14,8 @@ const [showlogin,setShowlogin]=useState(false)
 const [showmanu,setshowmanu]=useState(false);
 
   return (
+    
     <>  
-  
           <div className='bg-white  '>
           {
               showlogin ? <LoginPopup setShowlogin={setShowlogin}/>:<></>
@@ -23,8 +23,8 @@ const [showmanu,setshowmanu]=useState(false);
           {
               showmanu ? <Menupopup setshowmanu={setshowmanu} />:<></>
           }
+
                 <Navbar setShowlogin={setShowlogin}  setshowmanu={setshowmanu}/>
-              
                 <Routes>
                   <Route path='/' element={<Home  />} />
                   <Route path='/Cart' element={<Cart />} />

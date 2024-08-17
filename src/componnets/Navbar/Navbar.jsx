@@ -17,7 +17,7 @@ function Navbar({setShowlogin,setshowmanu}) {
   const totalCartItems = Object.values(context.CartItems).reduce((acc, quantity) => acc + quantity, 0);
 
 return (
-  <div className='container relative z-40 bg-white px-1'>
+  <div className='  container relative z-40 bg-white px-1'>
       <div className='py-1'>
          <div className='container  items-center '>
                     
@@ -39,7 +39,7 @@ return (
                    </div>
 
                     {/*  Menubar right section*/}
-                   <div className='flex items-center justify-between gap-4 '>
+                   <div className='flex items-center justify-between  md:gap-2 '>
                     
                        <div className="relative group  sm:block ">
                              <input type="text" placeholder='search' className='search-bar hidden' />
