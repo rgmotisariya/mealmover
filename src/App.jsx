@@ -2,15 +2,19 @@ import React, { useState } from 'react'
 import Navbar from './componnets/Navbar/Navbar'
 import Footer from './componnets/Footer/Footer'
 import { Route,Routes } from 'react-router-dom'
-import Home from './pages/Home/Home'
-import Cart from './pages/Cart/Cart'
+import Home from './pages/Home/Home'   
+import Cart from './pages/Cart/Cart'   
+import About from './pages/About/About'
+import Shop from './pages/Shop/Shop'
+import ContactUs from './pages/ContactUs/ContactUs'
 import PlaceOrcer from './pages/PlaceOrder/PlaceOrcer'
 import LoginPopup from './componnets/LoginPopup/LoginPopup'
 import Menupopup from './componnets/Menupopup/Menupopup'
 
+
 function App() {
 
-const [showlogin,setShowlogin]=useState(false)
+const [showlogin,setShowlogin]=useState(false);
 const [showmanu,setshowmanu]=useState(false);
 
   return (
@@ -29,7 +33,10 @@ const [showmanu,setshowmanu]=useState(false);
                   <Route path='/' element={<Home  />} />
                   <Route path='/Cart' element={<Cart />} />
                   <Route path='/order' element={<PlaceOrcer />} />
-                  
+                  <Route path='/shop' element={<Shop />} />
+                  <Route path='/About' element={<About />} />
+                  <Route path='/ContactUs' element={<ContactUs />} />
+
                 </Routes> 
                 <Footer />
           </div>
@@ -37,5 +44,6 @@ const [showmanu,setshowmanu]=useState(false);
     </>
   )
 }
+
 
 export default App

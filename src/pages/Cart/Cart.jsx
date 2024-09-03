@@ -8,15 +8,8 @@ function Cart() {
  
 
   const {food_list, CartItems, removeFromCart,deliveryFee, total, subtotal}=useContext(StoreContext);  
-  const navigate=useNavigate();
   
-  // const subtotal = item_List.reduce((acc, item) => {
-  //   return acc + (CartItems[item.id] > 0 ? CartItems[item.id] * item.price : 0);
-  // }, 0);
-
-  // const deliveryFee = subtotal > 0 ? 50 : 0;
-
-  // const total = subtotal + deliveryFee;
+  const navigate=useNavigate();
 
   return (
     <div className='container  '>
@@ -75,9 +68,10 @@ function Cart() {
                 <p>₹{total.toFixed(2)}</p>
               </div>
         <div className='flex justify-center gap-5 '>
-       <Link to='/'> <button className='  bg-orange-600 text-white py-2 px-4  w-32  rounded-md shadow-lg hover:bg-orange-700 transition duration-300 '>
-                  <h1>View Manu</h1>
-                  </button>
+                 <Link to='/Shop'> 
+                    <button className='  bg-orange-600 text-white py-2 px-4  w-32  rounded-md shadow-lg hover:bg-orange-700 transition duration-300 '>
+                      <h1>View Manu</h1>
+                    </button>
                   </Link> 
 
               <button onClick={()=>navigate('/order')} type="button" className=" w-32 px-4 py-2 bg-orange-600 text-white font-medium rounded-md hover:bg-orange-700 focus:outline-none">
@@ -87,8 +81,6 @@ function Cart() {
         </div>
 
       </div>
-
-      
 
     </div>
 

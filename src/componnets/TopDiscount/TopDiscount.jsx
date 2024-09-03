@@ -6,7 +6,7 @@ function TopDiscount() {
   return ( 
     <div className='container'> 
             <div className='flex flex-col gap-4 pt-7'> 
-               <h1 className='pt-5  text-[black] font-bold text-[max(2.5vw,15px)]'>Top restaurant chains around you</h1>
+               <h1 className='pt-5  text-[black] font-bold text-center text-[max(2.5vw,15px)]'>Top restaurant chains around you</h1>
                <div className=' explore-menu-list  grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 gap-y-8  sm:gap-2 xs:grid-3 md:gap-7'>
                     {
                       discount_detail.map((item,index)=>{ 

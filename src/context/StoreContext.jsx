@@ -21,14 +21,12 @@ const  StoreContextProvider =(props)=>{
         if (CartItems[itemId] === 0) {
                 delete CartItems[itemId];
         }
-    
     } 
      
     const subtotal = food_list.reduce((acc, item) => {
         return acc + (CartItems[item._id] > 0 ? CartItems[item._id] * item.price : 0);
       }, 0);
       
-
       const deliveryFee = subtotal > 0 ? 50 : 0;
       const total = subtotal + deliveryFee;
 
@@ -44,7 +42,6 @@ const contextValue={
         };
        
         return(
-
             <StoreContext.Provider value={contextValue}>
                 {props.children}
             </StoreContext.Provider>

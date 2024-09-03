@@ -7,9 +7,9 @@ import { Link } from 'react-router-dom';
 import { StoreContext } from '../../context/StoreContext'
 const MenuLinks=[
   {id:1, name:"Home" , Link:"/"},
-  {id:2, name:"Shop" , Link:"/#shop"},
-  {id:3, name:"About" , Link:"/#about"},
-  {id:4, name:"Contact Us" , Link:"/#Contactus"}
+  {id:2, name:"Shop" , Link:"/shop"},
+  {id:3, name:"About" , Link:"/About"},
+  {id:4, name:"Contact Us" , Link:"/ContactUs"}
 ];
 
 function Navbar({setShowlogin,setshowmanu}) {

@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { StoreContext } from "../../context/StoreContext";
-
+import   rating_starts from "../../assets/rating_starts.png"
 function Card({ id, name, description, price,img }) {
   
   const {CartItems,addToCart,removeFromCart}=useContext(StoreContext);
@@ -27,6 +27,7 @@ function Card({ id, name, description, price,img }) {
                 }            
             </div>
             <img src="" alt="" />
+            <img src={rating_starts} alt="" className="h-4" />
             <p className="text-xs text-gray-800 pb-2 ">{description}</p>
             <p className="text-primary font-semibold  pb-2">${price}</p>
         </div>
